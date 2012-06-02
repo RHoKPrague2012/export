@@ -1,0 +1,6 @@
+[submodule "Papadipupi"]
+	path = Papadipupi
+	url = git@github.com:RHoKPrague2012/Papadipupi.git
+[submodule "DuhovyTym"]
+	path = DuhovyTym
+	url = git@github.com:RHoKPrague2012/DuhovyTym.git
