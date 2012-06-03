@@ -19,7 +19,7 @@ lines.each_with_index do |line, line_index|
 	numbers.each_with_index do |number, index|
 		if index != 0
 		  weighted_number = number.strip.to_f * multipliers[index-1].to_f
-			print "#{weighted_number.round(2)}\t"
+			print "#{(weighted_number * 20).round / 20.00}\t"
 			weighted_line << weighted_number	
 		else
 			teams << number.split[0] if line_index > 2 and number.split[0].length > 6
@@ -34,9 +34,9 @@ lines.each_with_index do |line, line_index|
 		weighted_line.each do |number_item|
 			sum += number_item.to_f if !number_item.eql?("")
 		end
-		
-		print " | #{sum.round(2)}"
-		results << sum.round(2) 
+		sum = (sum * 20).round / 20.00
+		print " | #{sum}"
+		results << sum 
 	end
 	
 	puts
