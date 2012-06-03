@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GITSTATS_SCRIPT_PATH="/Volumes/htdocs/gitstats/gitstats"
+GITSTATS_SCRIPT_PATH="gitstats"
 GOURCE_SCRIPT_PATH="/Users/inza/Projects/Tools/scripts/run_gource.sh"
 STATS_OUTPUT_PATH="top_night_coder"
 VIDEO_OUTPUT_PATH="visualization"
