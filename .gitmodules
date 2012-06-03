@@ -1,3 +1,15 @@
+[submodule "MapGuys"]
+	path = MapGuys
+	url = git@github.com:RHoKPrague2012/MapGuys.git
+[submodule "Frutiboys"]
+	path = Frutiboys
+	url = git@github.com:RHoKPrague2012/Frutiboys.git
+[submodule "Tzolkinz"]
+	path = Tzolkinz
+	url = git@github.com:RHoKPrague2012/Tzolkinz.git
+[submodule "SynaptikoCz"]
+	path = SynaptikoCz
+	url = git@github.com:RHoKPrague2012/SynaptikoCz.git
 [submodule "Papadipupi"]
 	path = Papadipupi
 	url = git@github.com:RHoKPrague2012/Papadipupi.git
